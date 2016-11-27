@@ -142,6 +142,8 @@
 /**
  *  当一个控件被添加到父控件中就会调用
  */
+
+#warning 机制改变
 - (void)didMoveToSuperview
 {
     if (self.group.opened) {

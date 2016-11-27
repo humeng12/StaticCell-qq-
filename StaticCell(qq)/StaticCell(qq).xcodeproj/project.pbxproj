@@ -495,7 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 75AXUYD58X;
 				INFOPLIST_FILE = "StaticCell(qq)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hrt.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,7 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 75AXUYD58X;
 				INFOPLIST_FILE = "StaticCell(qq)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hrt.com.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -580,6 +580,7 @@
 				6BFCF1211DEAE68B0013C979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BFCF1221DEAE68B0013C979 /* Build configuration list for PBXNativeTarget "StaticCell(qq)Tests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +589,7 @@
 				6BFCF1241DEAE68B0013C979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BFCF1251DEAE68B0013C979 /* Build configuration list for PBXNativeTarget "StaticCell(qq)UITests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +598,7 @@
 				6BFCF1271DEAE68B0013C979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
