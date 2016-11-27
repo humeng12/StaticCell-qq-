@@ -13,8 +13,13 @@
 		6BFCF1051DEAE68B0013C979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCF1031DEAE68B0013C979 /* LaunchScreen.storyboard */; };
 		6BFCF1101DEAE68B0013C979 /* StaticCell_qq_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF10F1DEAE68B0013C979 /* StaticCell_qq_Tests.m */; };
 		6BFCF11B1DEAE68B0013C979 /* StaticCell_qq_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF11A1DEAE68B0013C979 /* StaticCell_qq_UITests.m */; };
-		6BFCF1311DEAE6CC0013C979 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF12B1DEAE6CC0013C979 /* ViewController.m */; };
 		6BFCF1321DEAE6CC0013C979 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF12F1DEAE6CC0013C979 /* AppDelegate.m */; };
+		6BFCF1341DEAFB0E0013C979 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BFCF1331DEAFB0E0013C979 /* friends.plist */; };
+		6BFCF13A1DEAFB960013C979 /* HMFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF1391DEAFB960013C979 /* HMFriend.m */; };
+		6BFCF13D1DEAFBD70013C979 /* HMFriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF13C1DEAFBD70013C979 /* HMFriendGroup.m */; };
+		6BFCF1401DEAFC630013C979 /* HMHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF13F1DEAFC630013C979 /* HMHeaderView.m */; };
+		6BFCF1431DEAFDEC0013C979 /* HMFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF1421DEAFDEC0013C979 /* HMFriendCell.m */; };
+		6BFCF1461DEAFFB60013C979 /* HMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFCF1451DEAFFB60013C979 /* HMTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +52,19 @@
 		6BFCF1161DEAE68B0013C979 /* StaticCell(qq)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaticCell(qq)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFCF11A1DEAE68B0013C979 /* StaticCell_qq_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticCell_qq_UITests.m; sourceTree = "<group>"; };
 		6BFCF11C1DEAE68B0013C979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BFCF12A1DEAE6CC0013C979 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6BFCF12B1DEAE6CC0013C979 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BFCF12E1DEAE6CC0013C979 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BFCF12F1DEAE6CC0013C979 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BFCF1331DEAFB0E0013C979 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		6BFCF1381DEAFB960013C979 /* HMFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFriend.h; sourceTree = "<group>"; };
+		6BFCF1391DEAFB960013C979 /* HMFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFriend.m; sourceTree = "<group>"; };
+		6BFCF13B1DEAFBD70013C979 /* HMFriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFriendGroup.h; sourceTree = "<group>"; };
+		6BFCF13C1DEAFBD70013C979 /* HMFriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFriendGroup.m; sourceTree = "<group>"; };
+		6BFCF13E1DEAFC630013C979 /* HMHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeaderView.h; sourceTree = "<group>"; };
+		6BFCF13F1DEAFC630013C979 /* HMHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeaderView.m; sourceTree = "<group>"; };
+		6BFCF1411DEAFDEC0013C979 /* HMFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFriendCell.h; sourceTree = "<group>"; };
+		6BFCF1421DEAFDEC0013C979 /* HMFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFriendCell.m; sourceTree = "<group>"; };
+		6BFCF1441DEAFFB60013C979 /* HMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTableViewController.h; sourceTree = "<group>"; };
+		6BFCF1451DEAFFB60013C979 /* HMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +165,8 @@
 		6BFCF1291DEAE6CC0013C979 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				6BFCF12A1DEAE6CC0013C979 /* ViewController.h */,
-				6BFCF12B1DEAE6CC0013C979 /* ViewController.m */,
+				6BFCF1441DEAFFB60013C979 /* HMTableViewController.h */,
+				6BFCF1451DEAFFB60013C979 /* HMTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +174,10 @@
 		6BFCF12C1DEAE6CC0013C979 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6BFCF1381DEAFB960013C979 /* HMFriend.h */,
+				6BFCF1391DEAFB960013C979 /* HMFriend.m */,
+				6BFCF13B1DEAFBD70013C979 /* HMFriendGroup.h */,
+				6BFCF13C1DEAFBD70013C979 /* HMFriendGroup.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +185,7 @@
 		6BFCF12D1DEAE6CC0013C979 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				6BFCF1331DEAFB0E0013C979 /* friends.plist */,
 				6BFCF12E1DEAE6CC0013C979 /* AppDelegate.h */,
 				6BFCF12F1DEAE6CC0013C979 /* AppDelegate.m */,
 			);
@@ -176,6 +195,10 @@
 		6BFCF1301DEAE6CC0013C979 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6BFCF13E1DEAFC630013C979 /* HMHeaderView.h */,
+				6BFCF13F1DEAFC630013C979 /* HMHeaderView.m */,
+				6BFCF1411DEAFDEC0013C979 /* HMFriendCell.h */,
+				6BFCF1421DEAFDEC0013C979 /* HMFriendCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +312,7 @@
 			files = (
 				6BFCF1051DEAE68B0013C979 /* LaunchScreen.storyboard in Resources */,
 				6BFCF1021DEAE68B0013C979 /* Assets.xcassets in Resources */,
+				6BFCF1341DEAFB0E0013C979 /* friends.plist in Resources */,
 				6BFCF1001DEAE68B0013C979 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,9 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BFCF1311DEAE6CC0013C979 /* ViewController.m in Sources */,
+				6BFCF1401DEAFC630013C979 /* HMHeaderView.m in Sources */,
 				6BFCF0F71DEAE68B0013C979 /* main.m in Sources */,
+				6BFCF13A1DEAFB960013C979 /* HMFriend.m in Sources */,
 				6BFCF1321DEAE6CC0013C979 /* AppDelegate.m in Sources */,
+				6BFCF1431DEAFDEC0013C979 /* HMFriendCell.m in Sources */,
+				6BFCF1461DEAFFB60013C979 /* HMTableViewController.m in Sources */,
+				6BFCF13D1DEAFBD70013C979 /* HMFriendGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

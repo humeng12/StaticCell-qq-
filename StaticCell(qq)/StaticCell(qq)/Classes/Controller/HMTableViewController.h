@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMTableViewController.h
 //  StaticCell(qq)
 //
 //  Created by 胡猛 on 2016/11/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HMTableViewController : UITableViewController
 
 @end
-
